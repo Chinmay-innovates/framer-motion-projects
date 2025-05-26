@@ -1,0 +1,57 @@
+.main {
+	text-align: center;
+	color: white;
+	margin-top: 50vh;
+
+	.spacer {
+		height: 100vh;
+	}
+
+	.gallery {
+		height: 175vh;
+		overflow: hidden;
+
+		.galleryWrapper {
+			position: relative;
+			top: -12.5vh;
+			height: 200vh;
+			display: flex;
+			gap: 2vw;
+			padding: 2vw;
+
+			.column {
+				position: relative;
+				width: 25%;
+				min-width: 250px;
+				display: flex;
+				flex-direction: column;
+				gap: 2vw;
+				white-space: nowrap;
+
+				.imageContainer {
+					position: relative;
+					height: 33%;
+					width: 100%;
+					border-radius: 1vw;
+					overflow: hidden;
+
+					img {
+						object-fit: cover;
+					}
+				}
+
+				&:nth-of-type(odd) {
+					top: -45%;
+				}
+
+				&:nth-of-type(2) {
+					top: -95%;
+				}
+
+				&:nth-of-type(4) {
+					top: -75%;
+				}
+			}
+		}
+	}
+}

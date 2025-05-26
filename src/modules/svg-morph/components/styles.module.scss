@@ -1,0 +1,25 @@
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: rgb(31, 31, 31);
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 200px;
+	}
+}
+
+.svgContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.svg {
+		width: 100%;
+		height: auto;
+	}
+}
