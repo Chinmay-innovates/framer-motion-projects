@@ -1,5 +1,6 @@
 import InfiniteText from "@/modules/infinite-text";
 import SmoothParallaxScroll from "@/modules/smooth-parallax-scroll";
+import SmoothScroll from "@/modules/smooth-scroll";
 interface Props {
 	params: Promise<{
 		name: string;
@@ -13,6 +14,9 @@ const page = async ({ params }: Props) => {
 	}
 	if (name === "smooth-parallax-scroll") {
 		return <SmoothParallaxScroll />;
+	}
+	if (name === "smooth-scroll") {
+		return <SmoothScroll />;
 	}
 
 	return (

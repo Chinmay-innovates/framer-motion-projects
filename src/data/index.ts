@@ -129,6 +129,16 @@ const PROJECTS_DATA = [
 		tech: ["Framer Motion", "Trignometry"],
 		color: "from-indigo-400 to-blue-500",
 	},
+	{
+		id: crypto.randomUUID(),
+		title: "Smooth Scroll",
+		link: "/scroll/smooth-scroll",
+		category: "scroll",
+		description: "A smooth scrolling effect with custom easing and transitions",
+		difficulty: "Intermediate",
+		tech: ["Framer Motion"],
+		color: "from-orange-400 to-red-500",
+	},
 ];
 
 export { PROJECTS_DATA, difficultyColors };
