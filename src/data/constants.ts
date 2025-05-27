@@ -154,4 +154,54 @@ const navItems = [
 	},
 ];
 
-export { PROJECTS, PROJECTS_2, LINKS, PROJECTS_3, navItems };
+const LINKS_2 = [
+	{
+		title: "Projects",
+		href: "/",
+	},
+	{
+		title: "Agency",
+		href: "/",
+	},
+	{
+		title: "Expertise",
+		href: "/",
+	},
+	{
+		title: "Careers",
+		href: "/",
+	},
+	{
+		title: "Contact",
+		href: "/",
+	},
+];
+
+const footerLinks = [
+	{
+		title: "Facebook",
+		href: "/",
+	},
+	{
+		title: "LinkedIn",
+		href: "/",
+	},
+	{
+		title: "Instagram",
+		href: "/",
+	},
+	{
+		title: "Twitter",
+		href: "/",
+	},
+];
+
+export {
+	PROJECTS,
+	PROJECTS_2,
+	PROJECTS_3,
+	LINKS,
+	LINKS_2,
+	footerLinks,
+	navItems,
+};

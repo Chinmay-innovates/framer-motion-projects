@@ -1,5 +1,6 @@
 import NavigationMenu from "@/modules/navigation-menu";
 import CurvedMenu from "@/modules/curved-menu";
+import AwwwardsSideMenu from "@/modules/awwwards-side-menu";
 interface Props {
 	params: Promise<{
 		name: string;
@@ -7,6 +8,10 @@ interface Props {
 }
 const page = async ({ params }: Props) => {
 	const { name } = await params;
+
+	if (name === "awwwards-side-menu") {
+		return <AwwwardsSideMenu />;
+	}
 
 	if (name === "navigation-menu") {
 		return <NavigationMenu />;

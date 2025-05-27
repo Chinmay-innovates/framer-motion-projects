@@ -150,6 +150,16 @@ const PROJECTS_DATA = [
 		tech: ["Framer Motion", "Sine Wave"],
 		color: "from-teal-400 to-green-500",
 	},
+	{
+		id: crypto.randomUUID(),
+		title: "Awwwards Side Menu",
+		link: "/menu/awwwards-side-menu",
+		category: "menu",
+		description: "A side menu inspired by Awwwards with smooth animations",
+		difficulty: "Advanced",
+		tech: ["Framer Motion"],
+		color: "from-blue-400 to-purple-500",
+	},
 ];
 
 export { PROJECTS_DATA, difficultyColors };
