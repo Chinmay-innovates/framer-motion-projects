@@ -139,6 +139,17 @@ const PROJECTS_DATA = [
 		tech: ["Framer Motion"],
 		color: "from-orange-400 to-red-500",
 	},
+	{
+		id: crypto.randomUUID(),
+		title: "Svg Bezier Curve",
+		link: "/cursor/svg-bezier-curve",
+		category: "cursor",
+		description:
+			"A common svg wave animation seen in a lot of awwwards website.",
+		difficulty: "Intermediate",
+		tech: ["Framer Motion", "Sine Wave"],
+		color: "from-teal-400 to-green-500",
+	},
 ];
 
 export { PROJECTS_DATA, difficultyColors };

@@ -2,6 +2,7 @@ import MouseScaleImageGallery from "@/modules/mouse-scale-image-gallery";
 import MaskCursorEffect from "@/modules/mask-cursor-effect";
 import SplitVignette from "@/modules/split-vignette";
 import StickyCursor from "@/modules/sticky-cursor";
+import SvgBezierCurve from "@/modules/svg-bezier-curve";
 interface Props {
 	params: Promise<{
 		name: string;
@@ -15,6 +16,9 @@ const page = async ({ params }: Props) => {
 	}
 	if (name === "mask-cursor-effect") {
 		return <MaskCursorEffect />;
+	}
+	if (name === "svg-bezier-curve") {
+		return <SvgBezierCurve />;
 	}
 	if (name === "split-vignette") {
 		return <SplitVignette />;
