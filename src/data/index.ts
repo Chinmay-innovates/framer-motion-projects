@@ -160,6 +160,16 @@ const PROJECTS_DATA = [
 		tech: ["Framer Motion"],
 		color: "from-blue-400 to-purple-500",
 	},
+	{
+		id: crypto.randomUUID(),
+		title: "Text Gradient Scroll Opacity",
+		link: "/scroll/text-gradient-scroll-opacity",
+		category: "scroll",
+		description: "A text gradient scroll effect with opacity transitions",
+		difficulty: "Beginner",
+		tech: ["Framer Motion"],
+		color: "from-cyan-400 to-green-500",
+	},
 ];
 
 export { PROJECTS_DATA, difficultyColors };
