@@ -1,7 +1,7 @@
 import { useQueryState } from "nuqs";
 import { ChangeEvent, useCallback } from "react";
 
-export const useSearchParams = () => {
+export const useParams = () => {
 	const [searchTerm, setSearchTerm] = useQueryState("q", {
 		defaultValue: "",
 		clearOnDefault: true,

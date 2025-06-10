@@ -16,7 +16,7 @@ const SearchResult = ({
 						<span className="font-semibold text-gray-900">
 							{filteredProjects.length}
 						</span>{" "}
-						projects for "{searchTerm}"
+						projects for &quot;{searchTerm}&quot;
 					</span>
 				) : (
 					<span>
