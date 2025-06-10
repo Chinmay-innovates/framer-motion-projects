@@ -1,7 +1,7 @@
 "use client";
 import Lenis from "@studio-freight/lenis";
-import Gallery from "./components/Gallery";
-import Description from "./components/Description";
+import Gallery from "./components/gallery";
+import Description from "./components/description";
 import { useEffect, useCallback } from "react";
 import { useSpring } from "framer-motion";
 import { throttle } from "@/utils/throttle";
